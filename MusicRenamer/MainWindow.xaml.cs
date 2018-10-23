@@ -76,7 +76,7 @@ namespace MusicRenamer {
 
         private FileInfo[] GetFiles() {
             DirectoryInfo dir = new DirectoryInfo(path);
-            return dir.GetFiles("*.txt");
+            return dir.GetFiles("*.mp3");
         }
 
         private bool CheckFileName(string fname) {
